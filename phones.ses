@@ -1,5 +1,5 @@
-    HTC Desire HD          250          300                                       A5
- HTC Incredible S          250          300                                         
+    HTC Desire HD          250          300                 !fr cam, battery?     A5
+ HTC Incredible S          250          300                          audio q?       
 Motorola Atrix 4G          300          (1)        hdmi,fp,bt ph,call rec,enc       
        HTC Evo 3D          310          400           camera/bt tth/rec 1fail       
     LG Optimus 2x          400                                                      
@@ -19,13 +19,13 @@ Motorola Atrix 4G          300          (1)        hdmi,fp,bt ph,call rec,enc
 (ses-cell A1 "HTC Desire HD" "HTC Desire HD" nil nil)
 (ses-cell B1 250 250 nil nil)
 (ses-cell C1 300 300 nil nil)
-(ses-cell D1 nil nil nil nil)
+(ses-cell D1 "!fr cam, battery?" "!fr cam, battery?" nil nil)
 (ses-cell E1 "A5" "A5" nil nil)
 
 (ses-cell A2 "HTC Incredible S" "HTC Incredible S" nil nil)
 (ses-cell B2 "250" "250" nil nil)
 (ses-cell C2 "300" "300" nil nil)
-(ses-cell D2 nil nil nil nil)
+(ses-cell D2 "audio q?" "audio q?" nil nil)
 (ses-cell E2 nil nil nil nil)
 
 (ses-cell A3 "Motorola Atrix 4G" "Motorola Atrix 4G" nil nil)
