@@ -2,15 +2,15 @@
  HTC Incredible S          250          300                          audio q?       
 Motorola Atrix 4G          300          (1)        hdmi,fp,bt ph,call rec,enc       
        HTC Evo 3D          310          400           camera/bt tth/rec 1fail       
-    LG Optimus 2x          400                                                      
-        HTC One S          500          550             S4!, hboot?, fastboot       
+    LG Optimus 2x          400                                           !OTG       
+        HTC One S          500          550                       S4!, hboot?       
           Nexus S          550          (1)                                         
      Galaxy Nexus          565          900                                         
            SE Arc          850                            CM11 wifi conn drop       
     /HTC Desire S        / 250                                       no S-OFF       
         /SE Neo V        / 280                      CM11 only - unstable wifi       
-          /SE Neo        / 320                      CM11 only - unstable wifi       
 /HTC Sensation XE        / 320          400 death grip,!disable beats?,~S-OFF     A5
+          /SE Neo        / 320                      CM11 only - unstable wifi       
         /SE Arc S        / 360                            CM11 wifi conn drop       
   /Samsung S Plus        / 400                                                      
             phone        price     price_to                                 -      +
@@ -43,13 +43,13 @@ Motorola Atrix 4G          300          (1)        hdmi,fp,bt ph,call rec,enc
 (ses-cell A5 "LG Optimus 2x" "LG Optimus 2x" nil nil)
 (ses-cell B5 "400" "400" nil nil)
 (ses-cell C5 nil nil nil nil)
-(ses-cell D5 nil nil nil nil)
+(ses-cell D5 "!OTG" "!OTG" nil nil)
 (ses-cell E5 nil nil nil nil)
 
 (ses-cell A6 "HTC One S" "HTC One S" nil nil)
 (ses-cell B6 "500" "500" nil nil)
 (ses-cell C6 "550" "550" nil nil)
-(ses-cell D6 "S4!, hboot?, fastboot" "S4!, hboot?, fastboot" nil nil)
+(ses-cell D6 "S4!, hboot?" "S4!, hboot?" nil nil)
 (ses-cell E6 nil nil nil nil)
 
 (ses-cell A7 "Nexus S" "Nexus S" nil nil)
@@ -82,17 +82,17 @@ Motorola Atrix 4G          300          (1)        hdmi,fp,bt ph,call rec,enc
 (ses-cell D11 "CM11 only - unstable wifi" "CM11 only - unstable wifi" nil nil)
 (ses-cell E11 nil nil nil nil)
 
-(ses-cell A12 "/SE Neo" "/SE Neo" nil nil)
+(ses-cell A12 "/HTC Sensation XE" "/HTC Sensation XE" nil nil)
 (ses-cell B12 "/ 320" "/ 320" nil nil)
-(ses-cell C12 nil nil nil nil)
-(ses-cell D12 "CM11 only - unstable wifi" "CM11 only - unstable wifi" nil nil)
-(ses-cell E12 nil nil nil nil)
+(ses-cell C12 "400" "400" nil nil)
+(ses-cell D12 "death grip,!disable beats?,~S-OFF" "death grip,!disable beats?,~S-OFF" nil nil)
+(ses-cell E12 "A5" "A5" nil nil)
 
-(ses-cell A13 "/HTC Sensation XE" "/HTC Sensation XE" nil nil)
+(ses-cell A13 "/SE Neo" "/SE Neo" nil nil)
 (ses-cell B13 "/ 320" "/ 320" nil nil)
-(ses-cell C13 "400" "400" nil nil)
-(ses-cell D13 "death grip,!disable beats?,~S-OFF" "death grip,!disable beats?,~S-OFF" nil nil)
-(ses-cell E13 "A5" "A5" nil nil)
+(ses-cell C13 nil nil nil nil)
+(ses-cell D13 "CM11 only - unstable wifi" "CM11 only - unstable wifi" nil nil)
+(ses-cell E13 nil nil nil nil)
 
 (ses-cell A14 "/SE Arc S" "/SE Arc S" nil nil)
 (ses-cell B14 "/ 360" "/ 360" nil nil)
