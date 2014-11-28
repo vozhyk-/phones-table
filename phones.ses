@@ -1,0 +1,128 @@
+ HTC Incredible S          250          300                                  
+    HTC Desire HD          250          300                                A5
+Motorola Atrix 4G          300          (1) hdmi,fp,bt ph,call rec,enc       
+       HTC Evo 3D          310          400    camera/bt tth/rec 1fail       
+*HTC Sensation XE          320          400                      S-OFF     A5
+    LG Optimus 2x          400                                               
+        HTC One S          500          550      S4!, hboot?, fastboot       
+          Nexus S          550          (1)                                  
+     Galaxy Nexus          565          900                                  
+           SE Arc          850                     CM11 wifi conn drop       
+    /HTC Desire S        / 250                                no S-OFF       
+        /SE Neo V        / 280               CM11 only - unstable wifi       
+          /SE Neo        / 320               CM11 only - unstable wifi       
+        /SE Arc S        / 360                     CM11 wifi conn drop       
+  /Samsung S Plus        / 400                                               
+            phone        price     price_to                          -      +
+
+
+(ses-cell A1 "HTC Incredible S" "HTC Incredible S" nil nil)
+(ses-cell B1 "250" "250" nil nil)
+(ses-cell C1 "300" "300" nil nil)
+(ses-cell D1 nil nil nil nil)
+(ses-cell E1 nil nil nil nil)
+
+(ses-cell A2 "HTC Desire HD" "HTC Desire HD" nil nil)
+(ses-cell B2 250 250 nil nil)
+(ses-cell C2 300 300 nil nil)
+(ses-cell D2 nil nil nil nil)
+(ses-cell E2 "A5" "A5" nil nil)
+
+(ses-cell A3 "Motorola Atrix 4G" "Motorola Atrix 4G" nil nil)
+(ses-cell B3 "300" "300" nil nil)
+(ses-cell C3 "(1)" "(1)" nil nil)
+(ses-cell D3 "hdmi,fp,bt ph,call rec,enc" "hdmi,fp,bt ph,call rec,enc" nil nil)
+(ses-cell E3 nil nil nil nil)
+
+(ses-cell A4 "HTC Evo 3D" "HTC Evo 3D" nil nil)
+(ses-cell B4 "310" "310" nil nil)
+(ses-cell C4 "400" "400" nil nil)
+(ses-cell D4 "camera/bt tth/rec 1fail" "camera/bt tth/rec 1fail" nil nil)
+(ses-cell E4 nil nil nil nil)
+
+(ses-cell A5 "*HTC Sensation XE" "*HTC Sensation XE" nil nil)
+(ses-cell B5 "320" "320" nil nil)
+(ses-cell C5 "400" "400" nil nil)
+(ses-cell D5 "S-OFF" "S-OFF" nil nil)
+(ses-cell E5 "A5" "A5" nil nil)
+
+(ses-cell A6 "LG Optimus 2x" "LG Optimus 2x" nil nil)
+(ses-cell B6 "400" "400" nil nil)
+(ses-cell C6 nil nil nil nil)
+(ses-cell D6 nil nil nil nil)
+(ses-cell E6 nil nil nil nil)
+
+(ses-cell A7 "HTC One S" "HTC One S" nil nil)
+(ses-cell B7 "500" "500" nil nil)
+(ses-cell C7 "550" "550" nil nil)
+(ses-cell D7 "S4!, hboot?, fastboot" "S4!, hboot?, fastboot" nil nil)
+(ses-cell E7 nil nil nil nil)
+
+(ses-cell A8 "Nexus S" "Nexus S" nil nil)
+(ses-cell B8 "550" "550" nil nil)
+(ses-cell C8 "(1)" "(1)" nil nil)
+(ses-cell D8 nil nil nil nil)
+(ses-cell E8 nil nil nil nil)
+
+(ses-cell A9 "Galaxy Nexus" "Galaxy Nexus" nil nil)
+(ses-cell B9 "565" "565" nil nil)
+(ses-cell C9 "900" "900" nil nil)
+(ses-cell D9 nil nil nil nil)
+(ses-cell E9 nil nil nil nil)
+
+(ses-cell A10 "SE Arc" "SE Arc" nil nil)
+(ses-cell B10 "850" "850" nil nil)
+(ses-cell C10 nil nil nil nil)
+(ses-cell D10 "CM11 wifi conn drop" "CM11 wifi conn drop" nil nil)
+(ses-cell E10 nil nil nil nil)
+
+(ses-cell A11 "/HTC Desire S" "/HTC Desire S" nil nil)
+(ses-cell B11 "/ 250" "/ 250" nil nil)
+(ses-cell C11 nil nil nil nil)
+(ses-cell D11 "no S-OFF" "no S-OFF" nil nil)
+(ses-cell E11 nil nil nil nil)
+
+(ses-cell A12 "/SE Neo V" "/SE Neo V" nil nil)
+(ses-cell B12 "/ 280" "/ 280" nil nil)
+(ses-cell C12 nil nil nil nil)
+(ses-cell D12 "CM11 only - unstable wifi" "CM11 only - unstable wifi" nil nil)
+(ses-cell E12 nil nil nil nil)
+
+(ses-cell A13 "/SE Neo" "/SE Neo" nil nil)
+(ses-cell B13 "/ 320" "/ 320" nil nil)
+(ses-cell C13 nil nil nil nil)
+(ses-cell D13 "CM11 only - unstable wifi" "CM11 only - unstable wifi" nil nil)
+(ses-cell E13 nil nil nil nil)
+
+(ses-cell A14 "/SE Arc S" "/SE Arc S" nil nil)
+(ses-cell B14 "/ 360" "/ 360" nil nil)
+(ses-cell C14 nil nil nil nil)
+(ses-cell D14 "CM11 wifi conn drop" "CM11 wifi conn drop" nil nil)
+(ses-cell E14 nil nil nil nil)
+
+(ses-cell A15 "/Samsung S Plus" "/Samsung S Plus" nil nil)
+(ses-cell B15 "/ 400" "/ 400" nil nil)
+(ses-cell C15 nil nil nil nil)
+(ses-cell D15 nil nil nil nil)
+(ses-cell E15 nil nil nil nil)
+
+(ses-cell A16 "phone" "phone" nil nil)
+(ses-cell B16 "price" "price" nil nil)
+(ses-cell C16 "price_to" "price_to" nil nil)
+(ses-cell D16 "-" "-" nil nil)
+(ses-cell E16 "+" "+" nil nil)
+
+(ses-column-widths [17 12 12 26 6])
+(ses-column-printers [nil nil nil nil nil])
+(ses-default-printer "%.7g")
+(ses-header-row 16)
+
+( ;Global parameters (these are read first)
+ 2 ;SES file-format
+ 16 ;numrows
+ 5 ;numcols
+)
+
+;; Local Variables:
+;; mode: ses
+;; End:
