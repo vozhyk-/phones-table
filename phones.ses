@@ -1,19 +1,19 @@
- HTC Incredible S          250          300                                  
-    HTC Desire HD          250          300                                A5
-Motorola Atrix 4G          300          (1) hdmi,fp,bt ph,call rec,enc       
-       HTC Evo 3D          310          400    camera/bt tth/rec 1fail       
-*HTC Sensation XE          320          400                      S-OFF     A5
-    LG Optimus 2x          400                                               
-        HTC One S          500          550      S4!, hboot?, fastboot       
-          Nexus S          550          (1)                                  
-     Galaxy Nexus          565          900                                  
-           SE Arc          850                     CM11 wifi conn drop       
-    /HTC Desire S        / 250                                no S-OFF       
-        /SE Neo V        / 280               CM11 only - unstable wifi       
-          /SE Neo        / 320               CM11 only - unstable wifi       
-        /SE Arc S        / 360                     CM11 wifi conn drop       
-  /Samsung S Plus        / 400                                               
-            phone        price     price_to                          -      +
+ HTC Incredible S          250          300                                         
+    HTC Desire HD          250          300                                       A5
+Motorola Atrix 4G          300          (1)        hdmi,fp,bt ph,call rec,enc       
+       HTC Evo 3D          310          400           camera/bt tth/rec 1fail       
+*HTC Sensation XE          320          400 death grip,!disable beats?,~S-OFF     A5
+    LG Optimus 2x          400                                                      
+        HTC One S          500          550             S4!, hboot?, fastboot       
+          Nexus S          550          (1)                                         
+     Galaxy Nexus          565          900                                         
+           SE Arc          850                            CM11 wifi conn drop       
+    /HTC Desire S        / 250                                       no S-OFF       
+        /SE Neo V        / 280                      CM11 only - unstable wifi       
+          /SE Neo        / 320                      CM11 only - unstable wifi       
+        /SE Arc S        / 360                            CM11 wifi conn drop       
+  /Samsung S Plus        / 400                                                      
+            phone        price     price_to                                 -      +
 
 
 (ses-cell A1 "HTC Incredible S" "HTC Incredible S" nil nil)
@@ -43,7 +43,7 @@ Motorola Atrix 4G          300          (1) hdmi,fp,bt ph,call rec,enc
 (ses-cell A5 "*HTC Sensation XE" "*HTC Sensation XE" nil nil)
 (ses-cell B5 "320" "320" nil nil)
 (ses-cell C5 "400" "400" nil nil)
-(ses-cell D5 "S-OFF" "S-OFF" nil nil)
+(ses-cell D5 "death grip,!disable beats?,~S-OFF" "death grip,!disable beats?,~S-OFF" nil nil)
 (ses-cell E5 "A5" "A5" nil nil)
 
 (ses-cell A6 "LG Optimus 2x" "LG Optimus 2x" nil nil)
@@ -112,7 +112,7 @@ Motorola Atrix 4G          300          (1) hdmi,fp,bt ph,call rec,enc
 (ses-cell D16 "-" "-" nil nil)
 (ses-cell E16 "+" "+" nil nil)
 
-(ses-column-widths [17 12 12 26 6])
+(ses-column-widths [17 12 12 33 6])
 (ses-column-printers [nil nil nil nil nil])
 (ses-default-printer "%.7g")
 (ses-header-row 16)
